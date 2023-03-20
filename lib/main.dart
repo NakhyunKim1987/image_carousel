@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:image_carousel/screen/HomeScreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MaterialApp(
+      home:HomeScreen(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
